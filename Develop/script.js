@@ -15,42 +15,42 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
-  $(".time-div").each(function () {
+  $(".time-block").each(function () {
 
-    var timeDiv = $(this).attr("id").val();
+    var timeDiv = $(this).attr("id")
 
       if (currentHour == timeDiv) {
-        $(this).removeClass("future")
-        $(this).removeClass("past")
-        $(this).addClass("present")
+        $(this).removeClass("row time-block future")
+        $(this).removeClass("row time-block past")
+        $(this).addClass("row time-block present")
   
       } else if (currentHour < timeDiv) {
-        $(this).removeClass("present")
-        $(this).removeClass("past")
-        $(this).addClass("future")
+        $(this).removeClass("row time-block present")
+        $(this).removeClass("row time-block past")
+        $(this).addClass("row time-block future")
   
       } else if (currentHour > timeDiv) {
-        $(this).removeClass("present")
-        $(this).removeClass("future")
-        $(this).addClass("past")
+        $(this).removeClass("row time-block present")
+        $(this).removeClass("row time-block future")
+        $(this).addClass("row time-block past")
       }
     })
     $(".time-div-data-set").each(function () {
       let timeDiv = $(this).data('hour')
       if (currentHour == timeDiv) {
-        $(this).removeClass("future")
-        $(this).removeClass("past")
-        $(this).addClass("present")
+        $(this).removeClass("row time-block future")
+        $(this).removeClass("row time-block past")
+        $(this).addClass("row time-block present")
   
       } else if (currentHour < timeDiv) {
-        $(this).removeClass("present")
-        $(this).removeClass("past")
-        $(this).addClass("future")
+        $(this).removeClass("row time-block present")
+        $(this).removeClass("row time-block past")
+        $(this).addClass("row time-block future")
   
       } else if (currentHour > timeDiv) {
-        $(this).removeClass("present")
-        $(this).removeClass("future")
-        $(this).addClass("past")
+        $(this).removeClass("row time-block present")
+        $(this).removeClass("row time-block future")
+        $(this).addClass("row time-block past")
       }
     })
   })
