@@ -12,8 +12,9 @@ The usage of this webite is to be able to input your daily schedule onto your co
 
 ## Website URL
 
+https://peckham4563.github.io/Daily-Planner/
 
-![Screenshot](/Other/Horiseon-Screenshot.png "Webpage Screenshot")
+![Screenshot](/Other/Planner-Screenshot.png "Webpage Screenshot")
 
 ## Credits
 
