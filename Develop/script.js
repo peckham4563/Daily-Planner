@@ -71,6 +71,16 @@ $(document).ready (function () {
   //
 
   $('#9 .description').val(localStorage.getItem('9'));
+  $('#9 .description').val(localStorage.getItem('10'));
+  $('#9 .description').val(localStorage.getItem('11'));
+  $('#9 .description').val(localStorage.getItem('12'));
+  $('#9 .description').val(localStorage.getItem('13'));
+  $('#9 .description').val(localStorage.getItem('14'));
+  $('#9 .description').val(localStorage.getItem('15'));
+  $('#9 .description').val(localStorage.getItem('16'));
+  $('#9 .description').val(localStorage.getItem('17'));
+
+
 
   // TODO: Add code to display the current date in the header of the page.
 ;
