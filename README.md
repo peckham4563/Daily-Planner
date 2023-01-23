@@ -14,7 +14,7 @@ The usage of this webite is to be able to input your daily schedule onto your co
 
 https://peckham4563.github.io/Daily-Planner/
 
-![Screenshot](/Assets/Weather-Screenshot "Webpage Screenshot")
+![Screenshot](/Assets/Planner-Screenshot.png "Webpage Screenshot")
 
 ## Credits
 
